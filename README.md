@@ -19,6 +19,8 @@ Inkdrop provides seamless data sync across devices and platforms without headach
 ipm install octopus-dark-ui
 ```
 
+This version targets Inkdrop `v5.9.0` or later and uses the current CSS-variable-based UI theme API.
+
 ## Note
 
 Inkdrop supports three types of themes: UI, Syntax, and Preview.
@@ -42,6 +44,10 @@ ipm install octopus-dark-preview
 
 - [peterbartha/inkdrop-octopus-dark-syntax-theme](https://github.com/peterbartha/inkdrop-octopus-dark-syntax-theme)
 - [peterbartha/inkdrop-octopus-dark-preview-theme](https://github.com/peterbartha/inkdrop-octopus-dark-preview-theme)
+
+## Development
+
+The active stylesheet is [`styles/theme.css`](styles/theme.css). A matching [`palette.json`](palette.json) is included for the current Inkdrop theme workflow.
 
 ## Changelog
 

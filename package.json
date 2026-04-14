@@ -1,37 +1,27 @@
 {
   "name": "octopus-dark-ui",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "theme": "ui",
+  "themeAppearance": "dark",
   "description": "Octopus Dark UI theme",
   "keywords": [
     "theme",
     "markdown",
     "note-taking",
-    "end-to-end-encryption",
     "inkdrop",
     "inkdrop-ui",
     "inkdrop-plugin"
   ],
-  "styleSheets": [
-    "theme.min.css"
+  "styles": [
+    "styles/theme.css"
   ],
-  "scripts": {
-    "run": "gulp",
-    "build": "gulp build"
-  },
-  "author": "Peter Bartha <mail@peterbartha.com>",
+  "author": "Spooky Kabuki <labs@kabuki.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/peterbartha/inkdrop-octopus-dark-ui-theme"
+    "url": "https://github.com/spooky-kabuki/inkdrop-octopus-dark-ui-theme"
   },
-  "browserslist": [
-    "Electron 7.3.2"
-  ],
   "engines": {
-    "inkdrop": "^5.x"
-  },
-  "devDependencies": {
-    "semantic-ui": "^2.4.2"
+    "inkdrop": "^5.9.0"
   }
 }
