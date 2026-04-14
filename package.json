@@ -22,6 +22,6 @@
     "url": "https://github.com/spooky-kabuki/inkdrop-octopus-dark-ui-theme"
   },
   "engines": {
-    "inkdrop": "^5.9.0"
+    "inkdrop": "^6.0.0"
   }
 }
